@@ -12,14 +12,14 @@ public class KnockOut {
         int playerSum = 0;
         int computerSum = 0;
         int roll = 0;
-
+        // Player turn
         while(roll != playerKO && playerSum < 100) {
             roll = random.nextInt(12) + 1;
             System.out.printf("Player roll : %d%n", roll);
             playerSum += roll;
             System.out.printf("Player total : %d%n", playerSum);
         }
-
+        // computer turn
         while(roll != ComputerKo && computerSum < 100) {
             roll = random.nextInt(12) + 1;
             System.out.printf("Computer roll : %d%n", roll);

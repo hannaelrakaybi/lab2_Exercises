@@ -132,7 +132,7 @@ public class CokesOnTheWall {
         return Output;
     }
 }
-
+// enter a number like 99 and it will start from there
 class Sing {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
